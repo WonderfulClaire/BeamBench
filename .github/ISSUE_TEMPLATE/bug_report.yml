@@ -1,0 +1,23 @@
+name: Bug report
+description: Report a reproducible problem in BeamBench
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for helping make research tooling more reliable.
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Minimal reproduction
+      description: Include the command, a small anonymized CSV, and the complete error.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      placeholder: Python version and operating system
+    validations:
+      required: true
+
