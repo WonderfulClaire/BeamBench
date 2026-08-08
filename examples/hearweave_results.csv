@@ -1,0 +1,91 @@
+run_id,method,metric,value,seed,condition,array,source_azimuth_deg,sample_rate_hz,evidence_scope
+snr-5-seed0-reference-mic,Reference mic,output_snr_db,-4.371379,0,synthetic input SNR -5 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr-5-seed0-reference-mic,Reference mic,si-sdr_db,-4.811843,0,synthetic input SNR -5 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr-5-seed0-das,DAS,output_snr_db,2.161183,0,synthetic input SNR -5 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr-5-seed0-das,DAS,si-sdr_db,2.244202,0,synthetic input SNR -5 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr-5-seed0-mvdr,MVDR,output_snr_db,1.08273,0,synthetic input SNR -5 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr-5-seed0-mvdr,MVDR,si-sdr_db,0.368919,0,synthetic input SNR -5 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr-5-seed1-reference-mic,Reference mic,output_snr_db,-5.381716,1,synthetic input SNR -5 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr-5-seed1-reference-mic,Reference mic,si-sdr_db,-4.779957,1,synthetic input SNR -5 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr-5-seed1-das,DAS,output_snr_db,2.142267,1,synthetic input SNR -5 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr-5-seed1-das,DAS,si-sdr_db,2.307765,1,synthetic input SNR -5 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr-5-seed1-mvdr,MVDR,output_snr_db,0.90092,1,synthetic input SNR -5 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr-5-seed1-mvdr,MVDR,si-sdr_db,-0.211166,1,synthetic input SNR -5 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr-5-seed2-reference-mic,Reference mic,output_snr_db,-3.777026,2,synthetic input SNR -5 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr-5-seed2-reference-mic,Reference mic,si-sdr_db,-4.146743,2,synthetic input SNR -5 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr-5-seed2-das,DAS,output_snr_db,2.418868,2,synthetic input SNR -5 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr-5-seed2-das,DAS,si-sdr_db,2.345902,2,synthetic input SNR -5 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr-5-seed2-mvdr,MVDR,output_snr_db,1.398539,2,synthetic input SNR -5 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr-5-seed2-mvdr,MVDR,si-sdr_db,0.692078,2,synthetic input SNR -5 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr-5-seed3-reference-mic,Reference mic,output_snr_db,-5.078904,3,synthetic input SNR -5 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr-5-seed3-reference-mic,Reference mic,si-sdr_db,-4.660841,3,synthetic input SNR -5 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr-5-seed3-das,DAS,output_snr_db,2.346109,3,synthetic input SNR -5 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr-5-seed3-das,DAS,si-sdr_db,2.559169,3,synthetic input SNR -5 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr-5-seed3-mvdr,MVDR,output_snr_db,1.160127,3,synthetic input SNR -5 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr-5-seed3-mvdr,MVDR,si-sdr_db,0.192341,3,synthetic input SNR -5 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr-5-seed4-reference-mic,Reference mic,output_snr_db,-4.879847,4,synthetic input SNR -5 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr-5-seed4-reference-mic,Reference mic,si-sdr_db,-4.009717,4,synthetic input SNR -5 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr-5-seed4-das,DAS,output_snr_db,2.482639,4,synthetic input SNR -5 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr-5-seed4-das,DAS,si-sdr_db,2.616058,4,synthetic input SNR -5 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr-5-seed4-mvdr,MVDR,output_snr_db,0.525172,4,synthetic input SNR -5 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr-5-seed4-mvdr,MVDR,si-sdr_db,-1.87185,4,synthetic input SNR -5 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr+0-seed0-reference-mic,Reference mic,output_snr_db,0.614765,0,synthetic input SNR +0 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr+0-seed0-reference-mic,Reference mic,si-sdr_db,0.102201,0,synthetic input SNR +0 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr+0-seed0-das,DAS,output_snr_db,7.157162,0,synthetic input SNR +0 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr+0-seed0-das,DAS,si-sdr_db,7.235994,0,synthetic input SNR +0 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr+0-seed0-mvdr,MVDR,output_snr_db,3.999425,0,synthetic input SNR +0 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr+0-seed0-mvdr,MVDR,si-sdr_db,2.60126,0,synthetic input SNR +0 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr+0-seed1-reference-mic,Reference mic,output_snr_db,-0.396421,1,synthetic input SNR +0 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr+0-seed1-reference-mic,Reference mic,si-sdr_db,0.232392,1,synthetic input SNR +0 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr+0-seed1-das,DAS,output_snr_db,7.135145,1,synthetic input SNR +0 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr+0-seed1-das,DAS,si-sdr_db,7.29179,1,synthetic input SNR +0 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr+0-seed1-mvdr,MVDR,output_snr_db,3.541842,1,synthetic input SNR +0 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr+0-seed1-mvdr,MVDR,si-sdr_db,1.793981,1,synthetic input SNR +0 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr+0-seed2-reference-mic,Reference mic,output_snr_db,1.216132,2,synthetic input SNR +0 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr+0-seed2-reference-mic,Reference mic,si-sdr_db,0.869018,2,synthetic input SNR +0 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr+0-seed2-das,DAS,output_snr_db,7.414521,2,synthetic input SNR +0 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr+0-seed2-das,DAS,si-sdr_db,7.337742,2,synthetic input SNR +0 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr+0-seed2-mvdr,MVDR,output_snr_db,5.37078,2,synthetic input SNR +0 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr+0-seed2-mvdr,MVDR,si-sdr_db,4.573584,2,synthetic input SNR +0 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr+0-seed3-reference-mic,Reference mic,output_snr_db,-0.089286,3,synthetic input SNR +0 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr+0-seed3-reference-mic,Reference mic,si-sdr_db,0.388601,3,synthetic input SNR +0 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr+0-seed3-das,DAS,output_snr_db,7.332446,3,synthetic input SNR +0 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr+0-seed3-das,DAS,si-sdr_db,7.560061,3,synthetic input SNR +0 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr+0-seed3-mvdr,MVDR,output_snr_db,3.740064,3,synthetic input SNR +0 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr+0-seed3-mvdr,MVDR,si-sdr_db,2.106556,3,synthetic input SNR +0 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr+0-seed4-reference-mic,Reference mic,output_snr_db,0.086596,4,synthetic input SNR +0 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr+0-seed4-reference-mic,Reference mic,si-sdr_db,0.98323,4,synthetic input SNR +0 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr+0-seed4-das,DAS,output_snr_db,7.477557,4,synthetic input SNR +0 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr+0-seed4-das,DAS,si-sdr_db,7.603648,4,synthetic input SNR +0 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr+0-seed4-mvdr,MVDR,output_snr_db,1.881094,4,synthetic input SNR +0 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr+0-seed4-mvdr,MVDR,si-sdr_db,-1.828438,4,synthetic input SNR +0 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr+5-seed0-reference-mic,Reference mic,output_snr_db,5.566128,0,synthetic input SNR +5 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr+5-seed0-reference-mic,Reference mic,si-sdr_db,5.05291,0,synthetic input SNR +5 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr+5-seed0-das,DAS,output_snr_db,12.144919,0,synthetic input SNR +5 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr+5-seed0-das,DAS,si-sdr_db,12.224181,0,synthetic input SNR +5 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr+5-seed0-mvdr,MVDR,output_snr_db,3.559588,0,synthetic input SNR +5 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr+5-seed0-mvdr,MVDR,si-sdr_db,1.086063,0,synthetic input SNR +5 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr+5-seed1-reference-mic,Reference mic,output_snr_db,4.556619,1,synthetic input SNR +5 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr+5-seed1-reference-mic,Reference mic,si-sdr_db,5.238699,1,synthetic input SNR +5 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr+5-seed1-das,DAS,output_snr_db,12.113958,1,synthetic input SNR +5 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr+5-seed1-das,DAS,si-sdr_db,12.275579,1,synthetic input SNR +5 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr+5-seed1-mvdr,MVDR,output_snr_db,3.410173,1,synthetic input SNR +5 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr+5-seed1-mvdr,MVDR,si-sdr_db,0.805308,1,synthetic input SNR +5 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr+5-seed2-reference-mic,Reference mic,output_snr_db,6.194347,2,synthetic input SNR +5 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr+5-seed2-reference-mic,Reference mic,si-sdr_db,5.875078,2,synthetic input SNR +5 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr+5-seed2-das,DAS,output_snr_db,12.400908,2,synthetic input SNR +5 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr+5-seed2-das,DAS,si-sdr_db,12.325854,2,synthetic input SNR +5 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr+5-seed2-mvdr,MVDR,output_snr_db,7.211765,2,synthetic input SNR +5 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr+5-seed2-mvdr,MVDR,si-sdr_db,6.327553,2,synthetic input SNR +5 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr+5-seed3-reference-mic,Reference mic,output_snr_db,4.87585,3,synthetic input SNR +5 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr+5-seed3-reference-mic,Reference mic,si-sdr_db,5.414701,3,synthetic input SNR +5 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr+5-seed3-das,DAS,output_snr_db,12.289366,3,synthetic input SNR +5 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr+5-seed3-das,DAS,si-sdr_db,12.551581,3,synthetic input SNR +5 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr+5-seed3-mvdr,MVDR,output_snr_db,3.384511,3,synthetic input SNR +5 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr+5-seed3-mvdr,MVDR,si-sdr_db,0.768782,3,synthetic input SNR +5 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr+5-seed4-reference-mic,Reference mic,output_snr_db,4.983094,4,synthetic input SNR +5 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr+5-seed4-reference-mic,Reference mic,si-sdr_db,5.97539,4,synthetic input SNR +5 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr+5-seed4-das,DAS,output_snr_db,12.460348,4,synthetic input SNR +5 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr+5-seed4-das,DAS,si-sdr_db,12.589528,4,synthetic input SNR +5 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr+5-seed4-mvdr,MVDR,output_snr_db,1.379867,4,synthetic input SNR +5 dB,glasses-4mic,35.0,16000,deterministic synthetic demo
+snr+5-seed4-mvdr,MVDR,si-sdr_db,-4.191379,4,synthetic input SNR +5 dB,glasses-4mic,35.0,16000,deterministic synthetic demo

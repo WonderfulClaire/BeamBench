@@ -19,6 +19,8 @@ def _metric_title(metric: object) -> str:
     words = str(metric).replace("_", " ").split()
     acronyms = {
         "snr": "SNR",
+        "si": "SI",
+        "sdr": "SDR",
         "si-sdr": "SI-SDR",
         "mae": "MAE",
         "mse": "MSE",

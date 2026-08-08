@@ -1,0 +1,13 @@
+metric,method,baseline,condition,pairs,delta_mean,delta_std,win_rate
+output_snr_db,DAS,Reference mic,synthetic input SNR +0 dB,5,7.017009,0.6049390395374564,1.0
+output_snr_db,DAS,Reference mic,synthetic input SNR +5 dB,5,7.0466922,0.6134849803358678,1.0
+output_snr_db,DAS,Reference mic,synthetic input SNR -5 dB,5,7.0079876,0.6023612016400954,1.0
+output_snr_db,MVDR,Reference mic,synthetic input SNR +0 dB,5,3.4202838,0.9512330035886055,1.0
+output_snr_db,MVDR,Reference mic,synthetic input SNR +5 dB,5,-1.4460268,1.6679365908285304,0.2
+output_snr_db,MVDR,Reference mic,synthetic input SNR -5 dB,5,5.711271999999999,0.5128089510246481,1.0
+si-sdr_db,DAS,Reference mic,synthetic input SNR +0 dB,5,6.8907586,0.3230694532075101,1.0
+si-sdr_db,DAS,Reference mic,synthetic input SNR +5 dB,5,6.881989,0.3279990582516973,1.0
+si-sdr_db,DAS,Reference mic,synthetic input SNR -5 dB,5,6.8964394,0.3174389896882546,1.0
+si-sdr_db,MVDR,Reference mic,synthetic input SNR +0 dB,5,1.3343002,2.4679306384300395,0.8
+si-sdr_db,MVDR,Reference mic,synthetic input SNR +5 dB,5,-4.5520902,3.7727872261484876,0.2
+si-sdr_db,MVDR,Reference mic,synthetic input SNR -5 dB,5,4.3158845999999995,1.2367180564495288,1.0

@@ -36,6 +36,14 @@ The output directory contains:
 
 See the checked-in [demo report](docs/demo-report/report.md).
 
+## HearWeave integration
+
+The [HearWeave → BeamBench example](docs/HEARWEAVE.md) runs a deterministic smart-glasses
+microphone-array experiment and turns its measurements into a seed-aligned evidence report.
+The generated [report](docs/hearweave-report/report.md) and
+[tidy results](examples/hearweave_results.csv) are checked in so the full path can be inspected
+before running any code. These are synthetic integration artifacts, not real-device results.
+
 ## The tidy result contract
 
 Each row is one measured metric from one run:
@@ -82,8 +90,7 @@ silence trimming, and deterministic framing.
 - [ ] Experiment manifest with Git commit and environment capture
 - [ ] Bootstrap confidence intervals and multiple-comparison helpers
 - [ ] LaTeX table export and journal style presets
-- [ ] HearWeave example adapter for smart wearable audio experiments
+- [x] HearWeave example adapter for smart wearable audio experiments
 
 Contributions are welcome—especially small adapters that remove real work without hiding the
 underlying data. Start with [CONTRIBUTING.md](CONTRIBUTING.md).
-
