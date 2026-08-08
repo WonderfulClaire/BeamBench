@@ -26,3 +26,29 @@ jobs:
       - run: python -m unittest discover -s tests -v
       - run: beambench summarize examples/demo_results.csv --output build/demo --baseline DAS
 
+  hearweave-integration:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/checkout@v5
+        with:
+          repository: WonderfulClaire/HearWeave
+          path: _hearweave
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: python -m pip install --upgrade pip
+      - run: python -m pip install -e . -e ./_hearweave
+      - name: Build the HearWeave evidence report
+        run: >-
+          python scripts/generate_hearweave_demo.py
+          --results build/hearweave/results.csv
+          --report build/hearweave/report
+      - name: Check integration artifacts
+        run: >-
+          test -s build/hearweave/results.csv &&
+          test -s build/hearweave/report/summary.csv &&
+          test -s build/hearweave/report/comparisons.csv &&
+          test -s build/hearweave/report/overview.png &&
+          test -s build/hearweave/report/report.md
