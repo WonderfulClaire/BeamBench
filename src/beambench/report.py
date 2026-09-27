@@ -9,6 +9,7 @@ import pandas as pd
 from .aggregate import summarize_results
 from .compare import compare_to_baseline
 from .io import load_results
+from .manifest import build_manifest, write_manifest
 from .plotting import plot_metric_overview
 from .schema import validate_results
 
@@ -33,7 +34,8 @@ def build_report(
     baseline: str,
 ) -> dict[str, Path]:
     """Write normalized results, comparisons, a plot, and a Markdown report."""
-    frame = load_results(results) if isinstance(results, (str, Path)) else validate_results(results)
+    source = results if isinstance(results, (str, Path)) else None
+    frame = load_results(results) if source is not None else validate_results(results)
     destination = Path(output_dir)
     destination.mkdir(parents=True, exist_ok=True)
     summary = summarize_results(frame)
@@ -43,10 +45,19 @@ def build_report(
         "comparisons": destination / "comparisons.csv",
         "figure": destination / "overview.png",
         "report": destination / "report.md",
+        "manifest": destination / "manifest.json",
     }
     summary.to_csv(paths["summary"], index=False)
     comparisons.to_csv(paths["comparisons"], index=False)
     plot_metric_overview(summary, paths["figure"])
+    manifest = build_manifest(
+        source=source,
+        baseline=baseline,
+        rows=len(frame),
+        methods=frame["method"].unique().tolist(),
+        metrics=frame["metric"].unique().tolist(),
+    )
+    write_manifest(paths["manifest"], manifest)
     report = f"""# BeamBench experiment report
 
 > Generated from a validated tidy-results table. Statistical summaries are descriptive;
@@ -72,6 +83,12 @@ Positive `delta_mean` means the candidate improved over the baseline. Direction 
 from common metric names and can be overridden through the Python API.
 
 {_markdown_table(comparisons)}
+
+## Reproducibility manifest
+
+The accompanying [`manifest.json`](manifest.json) records input file hashes, the Git commit
+and dirty state when available, Python/platform information, package versions, and the baseline
+used for this report. Absolute local paths and Git remote URLs are intentionally not stored.
 
 ## Reproduce
 
