@@ -53,14 +53,12 @@ def _git_state(cwd: Path | None = None) -> dict[str, Any]:
     if not commit:
         return {"available": False}
     status = run("status", "--porcelain")
-    remote = run("config", "--get", "remote.origin.url")
     branch = run("rev-parse", "--abbrev-ref", "HEAD")
     return {
         "available": True,
         "commit": commit,
         "branch": branch,
         "dirty": bool(status),
-        "remote": remote,
     }
 
 
@@ -93,7 +91,7 @@ def build_manifest(
             "metrics": sorted(map(str, metrics)),
             "source_files": [
                 {
-                    "path": str(path),
+                    "path": path.name,
                     "size_bytes": path.stat().st_size,
                     "sha256": _sha256(path),
                 }
