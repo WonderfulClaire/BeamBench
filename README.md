@@ -18,7 +18,9 @@ stay as ordinary files that work with Git.
 
 Research code often produces correct numbers but fragile evidence: columns drift, seeds stop
 matching, error bars are computed differently across notebooks, and the final figure cannot be
-recreated six weeks later. BeamBench gives those steps one small, inspectable contract.
+recreated six weeks later. BeamBench gives those steps one small, inspectable contract. Generated
+reports now also carry a machine-readable provenance manifest so a figure can be tied back to the
+exact input bytes and code/runtime state that produced it.
 
 ## Quick start
 
@@ -32,7 +34,8 @@ The output directory contains:
 - `summary.csv` — mean, standard deviation, SEM, and 95% confidence interval;
 - `comparisons.csv` — seed-aligned improvements and win rates versus the baseline;
 - `overview.png` — consistent, presentation-ready metric panels;
-- `report.md` — an auditable summary that links the artifacts together.
+- `report.md` — an auditable summary that links the artifacts together;
+- `manifest.json` — source SHA-256 hashes, Git commit/dirty state, runtime and package versions.
 
 See the checked-in [demo report](docs/demo-report/report.md).
 
@@ -87,7 +90,7 @@ silence trimming, and deterministic framing.
 
 ## Roadmap
 
-- [ ] Experiment manifest with Git commit and environment capture
+- [x] Experiment manifest with input hashes, Git commit/dirty state, and environment capture
 - [ ] Bootstrap confidence intervals and multiple-comparison helpers
 - [ ] LaTeX table export and journal style presets
 - [x] HearWeave example adapter for smart wearable audio experiments
